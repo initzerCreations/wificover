@@ -24,7 +24,7 @@ passwords = []
 for prf in profiles_selected:
     password = str(os.popen("netsh wlan show profile "+ prf + " key=clear").read())
     #print(password)
-    if("Contenido de la clave  :" in password):
+    if(splitter + "  :" in password):
         p = str(password).split(splitter)
         password = p[1].split("\n")
         passwords.append(password[0].strip(" "))
