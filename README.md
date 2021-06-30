@@ -20,10 +20,12 @@ Recover your Windows system stored wifi passwords with less than 50 lines of cod
 
 
 **Installation**
-You just need to clone the repository or directly download "wificover.py"
+
+* You just need to clone the repository or directly download "wificover.py"
+
 **Usage**
+
 ```
 python3 wificover.py
 ```
-
-The result of the execution will be a .txt file with the passwords stored
+* The result of the execution will be a .txt file with the passwords stored
